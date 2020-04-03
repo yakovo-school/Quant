@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="kMNHDN" name="quant3-noteOff" projectType="audioplug" jucerVersion="5.4.5"
+              pluginCharacteristicsValue="pluginProducesMidiOut,pluginWantsMidiIn"
+              pluginFormats="buildVST">
+  <MAINGROUP id="fyEEsF" name="quant3-noteOff">
+    <GROUP id="{13795663-9D99-38C5-C2BD-2F075FA074CE}" name="Source">
+      <FILE id="LehZcY" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Ji3lAy" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="DTA5j0" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="fsFH9K" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../Desktop/JUCE 5.4.5/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
